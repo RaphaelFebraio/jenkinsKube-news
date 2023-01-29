@@ -51,9 +51,9 @@ spec:
       labels:
         app: web
       annotations:
-        prometheus.ip/scrape: "true"
-        prometheus.ip/port: "8080"
-        prometheus.ip/path: "/metrics"
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "8080"
+        prometheus.io/path: "/metrics"
     spec:
       containers:
         - name: web
